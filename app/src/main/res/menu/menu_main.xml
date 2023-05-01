@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.alexander.intent.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="50"
+        android:title="About"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/web" android:title="Youtube"></item>
+    <item android:id="@+id/uni" android:title="靜宜大學 網頁"></item>
+    <item android:id="@+id/email" android:title="Email"></item>
+    <item android:id="@+id/search" android:title="Teacher"></item>
+    <item android:id="@+id/map" android:title="靜宜大學"></item>
+
+</menu>
